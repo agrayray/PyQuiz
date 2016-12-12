@@ -1,0 +1,10 @@
+2013-Top10-A1	Injection
+2013-Top10-A2	Broken Authentication and Session Management
+2013-Top10-A3	Cross-Site Scripting (XSS)
+2013-Top10-A4	Insecure Direct Object References
+2013-Top10-A5	Security Misconfiguration
+2013-Top10-A6	Sensitive Data Exposure
+2013-Top10-A7	Missing Function Level Access Control
+2013-Top10-A8	Cross-Site Request Forgery (CSRF)
+2013-Top10-A9	Using Components with Known Vulnerabilities
+2013-Top10-A10	Unvalidated Redirects and Forwards

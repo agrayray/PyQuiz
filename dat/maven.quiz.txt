@@ -1,0 +1,1 @@
+name the three standard lifecycles in maven?	clean, build, site
