@@ -15,7 +15,8 @@
 	Author:	Ray Lintner
 	Date:	2016-12-12
 	
-	Version: 1.0
+	Version: 1.0 - Initial
+	Version: 2.0 - Added repeat for incorrect answers
 """
 
 import sys
@@ -40,15 +41,17 @@ else :
 	# get number of lines / size of data
 	len_lines = len(lines)
 
+	incorrect = False
 	# Play Quiz
 	while True:
-		# gen a random line number from data set
-		random_num = random.randrange(0,len_lines)
+		if incorrect == False :
+			# gen a random line number from data set
+			random_num = random.randrange(0,len_lines)
 		
-		# split line by tab into Q&A
-		split_line = lines[random_num].split("\t");
-		question = split_line[0]
-		answer = split_line[1]
+			# split line by tab into Q&A
+			split_line = lines[random_num].split("\t");
+			question = split_line[0]
+			answer = split_line[1]
 		
 		# prompt and test
 		print ""
@@ -57,8 +60,12 @@ else :
 		#response = response.rstrip('\n')
 		if (response == answer):
 			print "CORRECT!"
+			incorrect = False
 		else:
 			print "WRONG, the answer is: %s" %answer
+			incorrect = True
+				
+
 	
 
 		
