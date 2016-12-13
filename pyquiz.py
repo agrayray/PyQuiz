@@ -5,7 +5,7 @@
 	This is a quiz game that reads in any number of tab
 	separated file(s) for its subject material.  It:
 		1. Prompts the user for the Questions
-		2. Test the response (exact match) to the answer
+		2. Tests the response (exact match) to the answer
 
 	Common file format is:
 		question \t answer
