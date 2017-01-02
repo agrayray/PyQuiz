@@ -17,3 +17,10 @@
 	Date:	2016-12-12
 	
 	Version: 1.0
+
+RUNNING THE QUIZ
+
+To run the quiz, pass in the quiz data files are arguments to the program like the following:
+
+$ python pyquiz.py 50states.dat 
+$ python pyquiz.py hexidecimal.dat owasptopten.dat {etc...} 
