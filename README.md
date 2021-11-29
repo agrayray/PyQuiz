@@ -13,7 +13,6 @@
 	although reverse prompting can also be supplied:
 		answer \t question
 
-	Author:	Ray Lintner
 	Date:	2016-12-12
 	
 	Version: 1.0
