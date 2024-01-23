@@ -29,7 +29,7 @@ if len(sys.argv) < 2 :
 	print "YOU MUST PASS AT LEAST ONE INPUT FILE TO THIS PROGRAM...EXITING..."
 	exit()
 else :
-	## process input files, must slice to bypass argv[0]
+	## process input files; bypass argv[0]
 	for file in sys.argv[1:] :
 		# read file into list
 		with open(file) as f:
